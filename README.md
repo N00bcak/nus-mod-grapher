@@ -12,3 +12,6 @@ After installing all the prerequisites, run
 `python nus-mod-grapher --help`
 
 Select your arguments before executing the module.
+
+**Your output will be a .dot file**, which you can render with GraphViz CLI (see docs [here](https://graphviz.org/documentation/))
+or submit for further processing through graph analysis libraries like [Networkx](https://networkx.org/documentation/stable/index.html).
